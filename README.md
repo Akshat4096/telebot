@@ -1,3 +1,18 @@
+# How to Start 
+ - Clone repo 
+ - install following modules : 
+    -claude-agent-sdk>=0.2.124
+    - python-telegram-bot>=22.8
+    - python-dotenv>=1.0
+    - reportlab>=4.0
+    - python-pptx>=0.6.23
+    - matplotlib>=3.8
+    - Pillow>=10.0
+    - pytest>=8.0
+
+- Run python -m bot.telegram_bot  
+
+
 # Supermarket Ops Agent
 
 Runs a small Indian kirana store end-to-end from a Telegram chat: receiving stock, cutting GST-correct bills, khata (credit), daily close, PDF invoices, PPTX analysis decks — all through an agent reasoning over tools, not a command router.
