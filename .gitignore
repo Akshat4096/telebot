@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets — never commit real tokens/keys
+.env
+.env.*
+!.env.example
+
+# Runtime data — the DB and generated documents are created at runtime,
+# not part of the source
+data/kirana.db
+data/kirana.db-*
+data/kirana_groq_scenario.db*
+data/generated/
+
+# Editor / OS cruft
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Node (only relevant if the Claude Code CLI gets installed locally instead of globally)
+node_modules/
