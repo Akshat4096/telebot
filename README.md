@@ -1,7 +1,8 @@
 # How to Start 
  - Clone repo 
  - install following modules : 
-    -claude-agent-sdk>=0.2.124
+    
+    - claude-agent-sdk>=0.2.124
     - python-telegram-bot>=22.8
     - python-dotenv>=1.0
     - reportlab>=4.0
